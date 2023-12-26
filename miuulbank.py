@@ -43,7 +43,7 @@ def run():
     emp = st.selectbox("İŞ DURUMU",emp_options, format_func=lambda x: emp_display[x])
 
     ## For Property status
-    prop_display = ('TAŞRA','YARIKENTSEL','BÜYÜKŞEHİR')
+    prop_display = ('KöY','YARIKENTSEL','BÜYÜKŞEHİR')
     prop_options = list(range(len(prop_display)))
     prop = st.selectbox("",prop_options, format_func=lambda x: prop_display[x])
 
